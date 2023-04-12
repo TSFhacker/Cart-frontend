@@ -9,7 +9,7 @@ function App() {
   return (
     <Routes>
       <Route exact path="/Cart-frontend/:id" element={<Cart />} />
-      <Route exact path="/home" element={<HomePage />} />
+      <Route exact path="/" element={<HomePage />} />
       <Route exact path="/admin-cart" element={<Admin />} />
     </Routes>
   );
